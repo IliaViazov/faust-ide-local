@@ -1,4 +1,9 @@
-# Faust IDE [![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=flat-square)](https://996.icu/#/en_US)
+# Faust IDE Local [![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=flat-square)](https://996.icu/#/en_US)
+
+The local version of the WebIDE for Faust built with Electron. Just the same as a normal WebIDE just running locally, so you don't need to be dependent on the network connection. Made for people, who doesn't want to build and run the server with `npm` themselves. Check the distributives in the Release section.
+The rest of the documentation below is from the original Git of FaustIDE.
+
+--------------
 
 The online [Faust IDE](https://faustide.grame.fr) can be used to _edit_, _compile_ and _run_ Faust code from any recent Web Browser with [webassembly](http://webassembly.org) support. It works completely on the client side and it is therefore very convenient for situations with many simultaneous users (workshops, classrooms, etc.). It embeds the latest version of the Faust compiler with an efficient webassembly backend and offers polyphonic MIDI support.
 
