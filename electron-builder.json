@@ -1,0 +1,14 @@
+{
+  "appId": "fr.grame.faustide",
+  "productName": "Faust IDE",
+  "extraMetadata": {
+    "main": "electron.js"
+  },
+  "files": [
+    "dist/**/*",
+    "electron.js"
+  ],
+  "mac": {
+    "target": "dir"
+  }
+}
